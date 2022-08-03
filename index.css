@@ -1,0 +1,48 @@
+body {
+    margin: 0px !important;
+}
+#player {
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    width: 50%;
+    height: 50vh;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.432);
+
+    display: flex;
+    flex-direction: column;
+}
+.video-container {
+    width: 100%;
+    flex-grow: 1;
+}
+
+.search-title {
+    margin-bottom: 0;
+}
+
+.button-container {
+    flex-shrink: 0;
+    display: flex;
+}
+.button-container .control-button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.control-button i {
+    font-size: 200%;
+    color: rgba(180, 180, 180, 0.541);
+    cursor: pointer;
+    width:20px;
+    margin-right: 10px;
+}
+
+.button-container {
+    background-color: black;
+}
+
+.separator {
+    flex-grow: 1;
+}
