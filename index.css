@@ -1,6 +1,11 @@
 body {
     margin: 0px !important;
 }
+
+#player:not(:hover) *:not(.video-container):not(.video-container *) {
+    display:none;
+}
+
 #player {
     position: absolute;
     left: 25%;
@@ -31,9 +36,12 @@ body {
     background-color: transparent;
 }
 
-.control-button i {
-    font-size: 200%;
+.control {
     color: rgba(180, 180, 180, 0.541);
+}
+
+.button-container i {
+    font-size: 200%;
     cursor: pointer;
     width:20px;
     margin-right: 10px;
@@ -43,6 +51,15 @@ body {
     background-color: black;
 }
 
-.separator {
+.separator, .progressbar {
     flex-grow: 1;
+}
+.progressbar {
+    display: flex;
+    flex-direction: row;
+}
+.progressbar p {
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 0;
 }
