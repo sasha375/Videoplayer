@@ -1,17 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
-        <script src="player.js"></script>
-        <script tpe="text/javascript">
-            function onload() {
-                createPlayer({
-                    elementId: 'player',
-                    src: "video.mp4"
-                });
-            }
-        </script>
         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
 
         <link href="index.css" rel="stylesheet">
@@ -40,5 +29,16 @@
                 </button>
             </div>
         </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
+        <script src="player.js"></script>
+        <script tpe="text/javascript">
+            function onload() {
+                createPlayer({
+                    elementId: 'player',
+                    src: "video.mp4"
+                });
+            }
+        </script>
     </body>
 </html>
