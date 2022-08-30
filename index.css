@@ -31,7 +31,7 @@ body {
     background-color: transparent;
 }
 
-.control-button i {
+.control-button i.control-button-icon {
     font-size: 200%;
     color: rgba(180, 180, 180, 0.541);
     cursor: pointer;
